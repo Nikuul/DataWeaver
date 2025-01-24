@@ -23,7 +23,7 @@ Przed uruchomieniem projektu upewnij się, że posiadasz:
   - Upewnij się, że MySQL działa w USBWebServer, a phpMyAdmin jest dostępny pod adresem `http://localhost/phpmyadmin`.
 
 ### 4. Konfiguracja bazy danych
-- Utwórz bazę danych o nazwie `user_management` w phpMyAdmin.
+- Utwórz bazę danych o nazwie `test` w phpMyAdmin.
 - Skonfiguruj plik `application.properties`:
   ```properties
   spring.datasource.url=jdbc:mysql://localhost:3306/test
@@ -51,7 +51,7 @@ Sklonuj projekt na swój komputer:
 ### 4. Uruchomienie aplikacji
 - Uruchom aplikację za pomocą IDE lub w terminalu.
 
-- Aplikacja będzie dostępna pod adresem: `http://localhost:8080`.
+- Aplikacja będzie dostępna pod adresem: `http://localhost:8080/users`.
 
 ---
 
